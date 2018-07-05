@@ -1,0 +1,37 @@
+{
+  "name": "testnodetoolbox",
+  "version": "1.0.0",
+  "description": "TestNodeToolbox",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node build/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/castle23/TestNodeToolbox.git"
+  },
+  "keywords": [
+    "test",
+    "toolbox"
+  ],
+  "author": "Carlos Castillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/castle23/TestNodeToolbox/issues"
+  },
+  "homepage": "https://github.com/castle23/TestNodeToolbox#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "config": "^1.30.0",
+    "express": "^4.16.3",
+    "moment": "^2.22.1",
+    "moment-timezone": "^0.5.17",
+    "typescript": "^2.8.3"
+  },
+  "devDependencies": {
+    "@types/config": "0.0.34",
+    "@types/express": "^4.11.1",
+    "@types/node": "^10.1.0"
+  }
+}
